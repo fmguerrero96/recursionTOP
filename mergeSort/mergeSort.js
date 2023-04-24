@@ -25,3 +25,18 @@ const merge = (leftArray, rightArray) => {
     
     return result
   }
+
+function mergeSort(arr){
+    if(arr.length <= 1){
+      return arr
+    }
+    
+    let midPoint = Math.floor(arr.length/2)
+    let leftHalf = arr.slice(0, midPoint)
+    let rightHalf = arr.slice(midPoint)
+    
+    let leftSorted = mergeSort(leftHalf)
+    let rightSorted = mergeSort(rightHalf)
+    
+    return merge(leftSorted, rightSorted)
+  }
