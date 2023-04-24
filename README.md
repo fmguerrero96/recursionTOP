@@ -1,1 +1,3 @@
-# recursionTOP
+For assignment 1, the goal was to create function fibs which takes a number and returns an array containing that many numbers from the fibonacci sequence. Using an example input of 8, this method should return the array [0, 1, 1, 2, 3, 5, 8, 13]. The second part of the assignment was to solve the same problem using the recursive method. 
+The second assignemnt required a function, mergeSort, that took in an array and returned an array using recursion. I don't know if my solution counts since I had to create two functions to solve the problem. My solution still uses recursion but it uses a helper function to accomplish the task. 
+Anyway, these assignments were very fun but also very difficult. Wrapping my head around the second assignemnt was a real challenge. Once I understood what was going on I was able to complete it. 
